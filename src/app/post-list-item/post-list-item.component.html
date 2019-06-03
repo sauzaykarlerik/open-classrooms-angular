@@ -1,7 +1,7 @@
 <li class="list-group-item"
   [ngClass]="{ 'list-group-item-success': post.loveIts > 0, 'list-group-item-danger': post.loveIts < 0 }">
   <div class="row">
-    <h2 class="col-sm-6">{{ post.title }}</h2>
+    <h2 class="col-sm-6" style="margin-top: 0">{{ post.title }}</h2>
     <i class="col-sm-6 text-right">{{ post.createdAt }} (Popularité : {{ post.loveIts }})</i>
     <p class="col-sm-12">{{ post.content }}</p>
     <div class="col-xs-12">
